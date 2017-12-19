@@ -13,7 +13,7 @@ function addNewTask(title) {
     });
 
     deleteBtn.addEventListener('click', function() {
-        deleteTask();
+        deleteTask(this);
     });
 
 //    Add task to DOM

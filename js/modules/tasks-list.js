@@ -6,12 +6,16 @@ function showTasks(){
 
 // Button complete
 
-    function toggleTaskComplete(task) {
-        task.classList.toggle('btn-success');
+function toggleTaskComplete(task) {
+    task.classList.toggle('btn-success');
 
     }
 // delete button
 
-function deleteTask() {
+function deleteTask(task) {
+
+    var liToDelete = task.closest('li');
+
+    task.closest('ul').removeChild(liToDelete);
 
 }
