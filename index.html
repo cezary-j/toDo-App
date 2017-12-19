@@ -11,13 +11,13 @@
 <body>
 
 <main class="container-app">
-  <h3 class="text-center">Lista zadań do wykonania</h3>
+  <h3 class="text-center">Lista zadań</h3>
   <section class="task-container">
     <form>
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Nazwa zadania...">
         <span class="input-group-btn">
-              <button class="btn btn-primary" type="submit">Dodaj zadanie</button>
+              <button class="btn btn-primary" type="submit">Dodaj</button>
             </span>
       </div>
     </form>
@@ -25,48 +25,15 @@
 
   <section class="container-tasks">
     <ul>
-      <li>
-        <div class="input-group">
-             <span class="input-group-btn">
-              <button class="btn btn-default delete-task-btn"><i class="fa fa-check"></i></button>
-            </span>
-          <input type="text" class="form-control" placeholder="Tytuł zadania...">
-
-          <span class="input-group-btn">
-              <button class="btn btn-danger toggle-complete-btn"><i class="fa fa-times"></i></button>
-            </span>
-        </div>
-      </li>
-      <li>
-        <div class="input-group">
-             <span class="input-group-btn">
-              <button class="btn btn-default delete-task-btn"><i class="fa fa-check"></i></button>
-            </span>
-          <input type="text" class="form-control" placeholder="Tytuł zadania...">
-
-          <span class="input-group-btn">
-              <button class="btn btn-danger toggle-complete-btn"><i class="fa fa-times"></i></button>
-            </span>
-        </div>
-      </li>
-      <li>
-        <div class="input-group">
-             <span class="input-group-btn">
-              <button class="btn btn-default delete-task-btn"><i class="fa fa-check"></i></button>
-            </span>
-          <input type="text" class="form-control" placeholder="Tytuł zadania...">
-
-          <span class="input-group-btn">
-              <button class="btn btn-danger toggle-complete-btn"><i class="fa fa-times"></i></button>
-            </span>
-        </div>
-      </li>
     </ul>
 
   </section>
 </main>
 
 
-<script src="scripts.js"></script>
+<script src="js/app.js"></script>
+<script src="js/modules/tasks.js"></script>
+<script src="js/modules/tasks-list.js"></script>
+<script src="js/modules/new-task.js"></script>
 </body>
 </html>
